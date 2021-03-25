@@ -48,6 +48,7 @@ setup(
         "Programming Language :: Python :: Implementation :: CPython",
         "Operating System :: OS Independent",
         "License :: OSI Approved :: MIT License",
+        "Typing :: Typed",
     ],
     entry_points={"pytest11": ["regressions = pytest_regressions.plugin"]},
 )
